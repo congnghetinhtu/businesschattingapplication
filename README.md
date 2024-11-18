@@ -10,7 +10,7 @@
          - js: Chứa File Behavior của đự án
            - script.js
 - ​components: Thư mục chứa các User Manual (Install Guide + User Guide)
-​  - “Báo Cáo - Công Nghệ Phần Mềm.docx”: File Báo Cáo Hoàn Chỉnh (Tên của Giảng viên hướng dẫn + Của các thành viên trong nhóm chưa được bổ sung)
+​  - “Báo Cáo Công Nghệ Phần Mềm.docx”: File Báo Cáo Hoàn Chỉnh (Tên của Giảng viên hướng dẫn + Của các thành viên trong nhóm chưa được bổ sung)
   ​- “Install Guide.docx”: Hướng Dẫn Cài Đặt
 ​  - “User Guide.docx”: Hướng Dẫn Sử Dụng
 
