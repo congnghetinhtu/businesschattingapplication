@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Messaging App</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script defer src="./assets/js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Enterprise Messaging App</h1>
+        <div id="userGreeting" class="user-greeting"></div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#chat">Chat</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Enterprise Messaging App</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#chat">Chat</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Chat Section -->
+    <section id="chat" class="chat-section">
+        <div class="chat-box">
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h2>Features</h2>
+        <ul>
+            <li>Text Messaging</li>
+            <li>Group Messaging</li>
+            <li>File Sharing</li>
+            <li>Voice and Video Calls</li>
+            <li>Push Notifications</li>
+            <li>Presence Status</li>
+            <li>Searchable Message History</li>
+        </ul>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <h2>Our Team</h2>
+        <p>Meet the dedicated team behind the Enterprise Messaging App.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Enterprise Messaging App. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
